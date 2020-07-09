@@ -1,0 +1,15 @@
+const FETCH_STATS_REQUEST = 'connected-app/duck/FETCH_STATS_REQUEST';
+const FETCH_STATS_SUCCESS = 'connected-app/duck/FETCH_STATS_SUCCESS';
+const FETCH_STATS_ERROR = 'connected-app/duck/FETCH_STATS_ERROR';
+const UPDATE_STATS_REQUEST = 'connected-app/duck/UPDATE_STATS_REQUEST';
+const UPDATE_STATS_SUCCESS = 'connected-app/duck/UPDATE_STATS_SUCCESS';
+const UPDATE_STATS_ERROR = 'connected-app/duck/UPDATE_STATS_ERROR';
+
+export default {
+    FETCH_STATS_REQUEST,
+    FETCH_STATS_SUCCESS,
+    FETCH_STATS_ERROR,
+    UPDATE_STATS_REQUEST,
+    UPDATE_STATS_SUCCESS,
+    UPDATE_STATS_ERROR
+}
